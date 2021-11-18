@@ -1,0 +1,20 @@
+.test {
+  margin: 20;
+}
+
+.fun {
+  font-family: "ial";
+}
+
+.color {
+  width: 200px;
+  height: 200px;
+  background: green;
+  margin-bottom: 20px;
+}
+
+.color-d {
+  width: 200px;
+  height: 200px;
+  background: #804000;
+}/*# sourceMappingURL=inbuilt-functions.css.map */

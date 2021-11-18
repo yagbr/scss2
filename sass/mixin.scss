@@ -1,0 +1,42 @@
+
+
+@mixin flex-p {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+$bg-color : #ddd;
+
+@mixin com ($part1){
+    color:#fff;
+    font-size: 10rem + 2rem;
+    cursor: pointer;
+    letter-spacing: $part1;
+}
+
+.main-header {
+    width: 100vw;
+    height: 100vh;
+    @include flex-p;
+    background-color: $bg-color;
+
+    h1{
+       @include com(0.8rem);
+
+        &:hover{
+            color: olive;
+        }
+     
+    }
+
+    p {
+      
+        @include com(0.9rem);
+        &:hover{
+            color: olive;
+        }
+     
+    }
+}

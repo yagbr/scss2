@@ -1,0 +1,27 @@
+.main-header {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ddd;
+}
+.main-header h1 {
+  color: #fff;
+  font-size: 12rem;
+  cursor: pointer;
+  letter-spacing: 0.8rem;
+}
+.main-header h1:hover {
+  color: olive;
+}
+.main-header p {
+  color: #fff;
+  font-size: 12rem;
+  cursor: pointer;
+  letter-spacing: 0.9rem;
+}
+.main-header p:hover {
+  color: olive;
+}/*# sourceMappingURL=mixin.css.map */

@@ -1,0 +1,18 @@
+@mixin margin($position , $unit) {
+    margin-#{$position}: $unit + px;
+}
+
+.test {
+    @include margin(right, 20)
+}
+
+
+@mixin set-icon($name) {
+    .icon-#{$name}{
+        background-image: url("#{$name}.svg");
+        
+    }
+}
+
+@include set-icon(vector-icons);
+

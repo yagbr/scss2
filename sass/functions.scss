@@ -1,0 +1,24 @@
+$container : 1000;
+
+@function half($width){
+    @return $width/2+px
+}
+
+@function one-half($width) {
+    @return $width/3+px;
+}
+
+.half{
+    width: half($container);
+}
+
+.one-half {
+    width :one-half($container);
+}
+
+
+$list : 10px 20px 30px
+
+.list{
+    padding: s);
+}

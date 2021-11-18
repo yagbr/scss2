@@ -1,0 +1,22 @@
+.test {
+    margin: floor(20.2);
+}
+
+.fun {
+    font-family: str-slice("Arial",3)
+}
+
+$color :green;
+
+.color {
+    width: 200px;
+height: 200px;
+    background: $color;
+    margin-bottom: 20px;
+}
+
+.color-d {
+    width: 200px;
+    height: 200px;
+    background: mix($color,red, 50)
+}
